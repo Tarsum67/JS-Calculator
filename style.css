@@ -1,0 +1,40 @@
+body {
+  background: linear-gradient(to left, grey, black);
+}
+#calcContainer {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  margin: auto;
+  background: black;
+  height: 32rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%; 
+    height: 100%;
+  }
+.btnRow {
+  background: white;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 4rem;
+}
+
+.btnColumn {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    width: 20%; 
+    height: 100%;
+  }
